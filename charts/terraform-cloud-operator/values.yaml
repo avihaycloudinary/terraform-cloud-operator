@@ -31,6 +31,10 @@ operator:
   # Whether or not to ignore TLS certification warnings.
   skipTLSVerify: false
 
+  # enable custom service account, if name
+  serviceAccount:
+    awsRoleArn:
+
 # Controllers-specific options.
 controllers:
   agentPool:
